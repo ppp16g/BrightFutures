@@ -8,7 +8,7 @@ let package = Package(
         .iOS("9.0")
     ],
     swiftLanguageVersions: [
-        5.0
+        .v5
     ],
     products: [
         .library(
