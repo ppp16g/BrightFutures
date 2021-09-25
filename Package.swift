@@ -7,9 +7,6 @@ let package = Package(
         .macOS("10.10"),
         .iOS("9.0")
     ],
-    swiftLanguageVersions: [
-        .v5
-    ],
     products: [
         .library(
             name: "BrightFutures",
@@ -19,5 +16,6 @@ let package = Package(
         .target(
             name: "BrightFutures",
             dependencies: []),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
